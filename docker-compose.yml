@@ -3,4 +3,5 @@ services:
   snap:
     image: s3creo
     volumes:
-      - C:\Michal\gisat\projects\Cure:/usr/src/s3src
+      - /eodata/Sentinel-3:/usr/src/s3src
+      - /home/michal/output:/usr/src/output
