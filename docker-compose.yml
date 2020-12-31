@@ -1,0 +1,6 @@
+version: '3.4'
+services:
+  snap:
+    image: s3creo
+    volumes:
+      - C:\Michal\gisat\projects\Cure:/usr/src/s3src

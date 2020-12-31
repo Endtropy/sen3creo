@@ -1,0 +1,14 @@
+# install4j response file for ESA SNAP 7.0
+deleteSnapDir=DESKTOP
+executeLauncherAction$Boolean=false
+forcePython$Boolean=false
+sys.adminRights$Boolean=true
+sys.component.RSTB$Boolean=false
+sys.component.S1TBX$Boolean=false
+sys.component.S2TBX$Boolean=false
+sys.component.S3TBX$Boolean=true
+sys.component.SNAP$Boolean=true
+sys.installationDir=/opt/snap
+sys.languageId=en
+sys.programGroupDisabled$Boolean=false
+sys.symlinkDir=/usr/local/bin
