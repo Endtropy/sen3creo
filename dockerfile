@@ -21,4 +21,4 @@ RUN cd /usr/local/src \
   && rm -v ./esa-snap_sentinel_unix_8_0.sh \
   && rm -v ./response.varfile
   
-RUN pip3 install shapley
+RUN pip3 install shapely
