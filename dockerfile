@@ -14,7 +14,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime \
 RUN apt-get install -y python3 python3-pip gdal-bin python3-gdal python3-numpy python3-lxml
 
 # Install esa snap toolkit.
-COPY ./response.varfile /usr/local/src/
+COPY . /usr/local/src/
 RUN cd /usr/local/src \
   && wget --no-verbose http://step.esa.int/downloads/8.0/installers/esa-snap_sentinel_unix_8_0.sh \
   && bash ./esa-snap_sentinel_unix_8_0.sh -q -varfile ./response.varfile \
